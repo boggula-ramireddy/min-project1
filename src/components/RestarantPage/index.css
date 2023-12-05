@@ -1,0 +1,117 @@
+.main_specific_page_container {
+  display: flex;
+  flex-direction: column;
+}
+.main_hotel_image {
+  background-color: black;
+  height: 188px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+.hotel_img {
+  height: 167px;
+  width: 153px;
+  border-top-right-radius: 133.98px;
+  border-bottom-right-radius: 133.98px;
+  border-bottom-left-radius: 133.98px;
+}
+
+.hotel_name_container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-left: 20px;
+  font-family: Roboto;
+}
+.hotelName {
+  font-size: 16px;
+  font-family: Roboto;
+  margin-bottom: 10px;
+}
+.hotel_cuisine {
+  font-size: 12px;
+  font-family: Roboto;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.ratings_container {
+  display: flex;
+  flex-direction: row;
+}
+.react_iconStar {
+  height: 12px;
+  width: 12px;
+}
+.raing_name {
+  font-size: 12px;
+  font-family: Roboto;
+  margin-bottom: 10px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.rating_review_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.left_container {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.foodItems_container {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0px;
+}
+@media screen and (min-width: 992px) {
+  .main_hotel_image {
+    height: 372.52px;
+    flex-direction: row;
+    align-items: center;
+  }
+  .hotel_name_container {
+    margin-top: 0px;
+  }
+  .hotel_img {
+    height: 280px;
+    width: 445px;
+    padding-left: 165px;
+    border-radius: 10px 10px 10px 10px;
+  }
+  .hotelName {
+    font-size: 36px;
+    font-weight: 400;
+  }
+  .hotel_cuisine {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .foodItems_container {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 165px;
+    padding-right: 165px;
+  }
+  .raing_name {
+    font-size: 18px;
+  }
+  .react_iconStar {
+    height: 18px;
+    width: 18px;
+  }
+}
+
+.loader_container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

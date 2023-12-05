@@ -1,0 +1,36 @@
+.cart_img {
+  height: 90px;
+  width: 136px;
+  border-radius: 8px;
+}
+.cartItem_container {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.cartItem_name {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #183b56;
+}
+.crtItem_cost {
+  display: flex;
+  align-items: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: gold;
+}
+.cartItem_details_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
