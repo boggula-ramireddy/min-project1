@@ -42,7 +42,6 @@ class FoodCard extends Component {
   }
 
   decrementCartItemQuantity = () => {
-    this.setState(prev => ({quantity: prev.quantity - 1}))
     const {quantity} = this.state
     const cartData = JSON.parse(localStorage.getItem('cartData'))
     const {itemDetails} = this.props
